@@ -1,0 +1,29 @@
+.header {
+  background-color: #080aa1; /* cinza escuro */
+  color: white;
+  padding: 1.5rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  max-width: 96rem;
+  margin: 0 auto;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.active {
+  color: #000000; 
+  font-weight: bold;
+}
